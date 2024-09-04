@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>"Tacos, Dos bros"</title>
+</head>
+<body>
+    <h1> Menú de este bello restaurante </h1>
+
+    <table>
+         <thead> 
+            <tr>
+                <th><h2>Nombre de los platos<h2></th>
+                <th><h2>Descripcion</h2></th>
+                <th><h2>Precio accesibles</h2></th>
+            </tr>
+            
+        </thead>
+        
+        <tbody>
+            
+            <tr> 
+               <b><td>Tacos</td> </b> 
+                <td>consiste en una tortilla (generalmente de maíz), seguido de un guiso, acompañado con cebolla, cilantro picado y limón, así como alguna salsa.</td>
+                <td>$496,99 - $752.99</td>
+                
+            </tr>
+            
+            
+            
+            <tr>
+                <td>Chilaquiles</td>     
+                <td>ortillas de maíz cortadas en triángulos, la mayoría de las veces son fritas y bañadas de salsa roja o verde.</td>
+                <td>$248 - $298</td>
+            </tr>
+            <tr>
+                <td>Chiles en Nogada</td>   
+                <td>chile poblano relleno de carne de res y puerco, mezclados con fruta: plátano, manzana, pera, durazno y bañados con una salsa de nuez.</td>
+                <td>$39,937 (la media docena)</td>
+            </tr>
+            <tr>
+                <td>Cochinita Pibil</td>    
+                <td>arne de venado, faisán, el pavo de monte y el pecarí.</td>
+                <td>$800 - $1200</td>
+            </tr>
+            <tr>
+                 <td>Mole</td>  
+                <td>cacao, jitomate, ajo, cebolla, almendras, nueces, pasas y especias como el clavo, la pimienta cuatro tipos de chiles: ancho, mulato, pasilla y chipotle</td>
+                <td>$550</td>
+            </tr>
+        </tbody>
+    
+
+    </table>
+
+    
+
+
+
+
+
+
+    <h2>Haga su reserva online (seña obligatoria)</h2>
+
+    <form action="#">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+    <br>
+        <label for="gmail">Gmail:</label>
+        <input type="email" id="gmail" name="gmail" required>
+    <br>
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+    <br>
+        <label for="personas">Cantidad de personas:</label>
+        <input type="number" id="personas" name="personas" min="1" max="6"required>
+    <br>
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" name="fecha" required>
+    <br>
+        <label for="hora">Hora:</label>
+        <input type="time" id="hora" name="hora" required>
+    <br>
+        <label for="comentarios">Comentarios (opcional):</label>
+        <textarea id="comentarios" name="comentarios"></textarea>
+
+        <button type="submit">Enviar reserva</button>
+        <br>        
+    </form>
+    <h2>Confirmar ausencia</h2>
+</body>
+</html> 
