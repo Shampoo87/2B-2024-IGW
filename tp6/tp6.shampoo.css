@@ -1,0 +1,20 @@
+h1 {
+    color: blueviolet;
+    
+}
+
+#parraforojo {
+    color:red;
+}
+
+.letra1{
+    font: small-caps 100%/200% serif;
+}
+
+.tamaño{
+    font-size: 150%;
+}
+
+li {
+    text-align:end;
+}
