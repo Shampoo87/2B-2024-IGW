@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Servicios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="services">
+        <h1>Nuestros Servicios</h1>
+        <div class="service-list">
+            <article>
+                <h2>Consultoría</h2>
+                <p>Ofrecemos servicios de consultoría para empresas que buscan mejorar su eficiencia y crecimiento.</p>
+            </article>
+            <article>
+                <h2>Desarrollo Web</h2>
+                <p>Desarrollamos sitios web modernos y funcionales, adaptados a las necesidades de tu negocio.</p>
+            </article>
+            <article>
+                <h2>Marketing Digital</h2>
+                <p>Te ayudamos a aumentar tu presencia en línea con estrategias efectivas de marketing digital.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="social-media">
+        <h2>Síguenos en Redes Sociales</h2>
+        <div class="social-links">
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://www.twitter.com" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        </div>
+    </section>
+
+    <footer>
+        <p> 2024 Todos los derechos reservados xdd</p>
+    </footer>
+</body>
+</html>
