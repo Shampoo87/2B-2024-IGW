@@ -1,0 +1,150 @@
+/* Diseño base */
+body {
+    
+    font-family:monospace ;
+    margin: 10px;
+    padding: 3px;
+    background-color: #eecaca4e;
+}
+body{-webkit-animation: colorchange 60s infinite; 
+        animation: colorchange 60s infinite;}
+    @-webkit-keyframes colorchange {0%  {background: #33FFF3;}
+        25%  {background: #78281F;}
+        50%  {background: #117A65;}
+        75%  {background: #DC7633;}
+        100% {background: #9B59B6;}}
+    @keyframes colorchange {0%  {background: #33FFF3;}
+        25%  {background: #78281F;}
+        50%  {background: #117A65;}
+        75%  {background: #DC7633;}
+        100% {background: #9B59B6;}} 
+header {
+    background-color: #333333dc;
+    color: white;
+    padding: 10px 0;
+}
+    
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+     
+    
+    overflow: hidden;
+    background-color: #333333;}
+
+header nav li:last-child {
+    border-right: none;}
+
+
+header nav li {
+     border-radius: 40px;  
+    float: left;
+    border-right:1px solid #f32525;
+}
+header nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;}
+header nav li a:hover:not(.active) {
+        background-color: #111;}
+      
+header nav .active {
+        background-color: #aa1919;
+        transition:0.5s;
+    border-radius: 20%;}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+/* Flexbox y Grid */
+.intro .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.video-container article {
+    flex: 1 1 45%;
+}
+
+.service-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.service-list article {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: grid;
+    gap: 15px;
+}
+
+form .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Estilos adicionales */
+.social-links a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
