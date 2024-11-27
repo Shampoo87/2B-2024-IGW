@@ -1,13 +1,12 @@
-/* Diseño base */
-body {
-    
+
+body{    
     font-family:monospace ;
     margin: 10px;
     padding: 3px;
     background-color: #eecaca4e;
-}
-body{-webkit-animation: colorchange 60s infinite; 
-        animation: colorchange 60s infinite;}
+    -webkit-animation: colorchange 40s infinite; 
+        animation: colorchange 40s infinite;}
+
     @-webkit-keyframes colorchange {0%  {background: #33FFF3;}
         25%  {background: #78281F;}
         50%  {background: #117A65;}
@@ -18,10 +17,11 @@ body{-webkit-animation: colorchange 60s infinite;
         50%  {background: #117A65;}
         75%  {background: #DC7633;}
         100% {background: #9B59B6;}} 
-header {
-    background-color: #333333dc;
+header, footer {
+    background-color: #33333382;
     color: white;
-    padding: 10px 0;
+    padding: 10px 0 30px;
+    border-radius:10%;
 }
     
 header nav ul {
@@ -44,7 +44,7 @@ header nav li {
 }
 header nav ul li a {
     display: block;
-    color: white;
+    color: rgb(112, 81, 81);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;}
@@ -52,13 +52,19 @@ header nav li a:hover:not(.active) {
         background-color: #111;}
       
 header nav .active {
-        background-color: #aa1919;
+        background-color: #ffffffa3;
         transition:0.5s;
     border-radius: 20%;}
 
 section {
     padding: 20px;
     margin: 20px;
+}
+article h2, section h1{
+
+
+
+    color: black;
 }
 
 footer {
@@ -68,15 +74,38 @@ footer {
     padding: 10px 0;
 }
 
-h1, h2, h3 {
-    color: #333;
-}
+
+iframe {
+    border:2px white;
+    justify-content:space-evenly;
+} 
+
+p{
+    padding: 20px;
+    border: 1px solid #619e5f;
+    margin: 9px;
+    font-size: large;
+    font-style: oblique;
+    font-weight: bolder;}
+h1, h2, h3  {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    background-color:rgba(47, 182, 182, 0.336) ;
+    border-style: outset;
+    font-family:'Brush Script MT'}
+    
+
 
 h2 {
     margin-top: 40px;
 }
+.equitativo{
+    display: flex;
+    border: 1px solid #000;
+    justify-content:space-evenly;
+    align-items:center;
+    padding: 9px;}
 
-/* Flexbox y Grid */
 .intro .content {
     display: flex;
     justify-content: center;
@@ -138,11 +167,12 @@ form button:hover {
     background-color: #555;
 }
 
-/* Estilos adicionales */
-.social-links a {
+
+.social-links a,article p {
     margin-right: 20px;
     text-decoration: none;
     color: #333;
+    font-size: x-large;
 }
 
 .social-links a:hover {
